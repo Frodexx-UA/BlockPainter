@@ -1,0 +1,73 @@
+ink-refill:
+  ink-per-dye: 1
+  max-ink: 640
+
+brush:
+  material: BRUSH
+  name: "&6&lКольорозмінювач"
+  lore:
+    header:
+      - "&7Пензель для фарбування блоків"
+    ink: "&7Чорнила: %ink_color%%ink%&7/&f%max_ink%"
+    colors-title:
+      - ""
+      - "&fПоточний колір:"
+      - ""
+    footer:
+      - ""
+      - "&aПКМ &fпо блоку &7— фарбує блок"
+      - "&aПКМ &fв повітрі &7— фарбує предмет в руці"
+      - "&aSHIFT + ПКМ &7— змінити поточний колір"
+      - "&aЛКМ &fв повітрі &7— поповнити чорнила"
+      - "&8(тримай будь-який барвник в лівій руці)"
+
+colors:
+  - "WHITE:Білий               "
+  - "ORANGE:Помаранчевий  "
+  - "MAGENTA:Пурпурний        "
+  - "LIGHT_BLUE:Блакитний  "
+  - "YELLOW:Жовтий            "
+  - "LIME:Лаймовий        "
+  - "PINK:Рожевий           "
+  - "GRAY:Сірий            "
+  - "LIGHT_GRAY:Світло-сірий     "
+  - "CYAN:Бірюзовий   "
+  - "PURPLE:Фіолетовий       "
+  - "BLUE:Синій           "
+  - "BROWN:Коричневий      "
+  - "GREEN:Зелений        "
+  - "RED:Червоний         "
+  - "BLACK:Чорний         "
+
+paintable-blocks:
+  - "*_WOOL"
+  - "*_CONCRETE"
+  - "*_CONCRETE_POWDER"
+  - "*_TERRACOTTA"
+  - "*_GLAZED_TERRACOTTA"
+  - "*_CARPET"
+  - "*_BED"
+  - "*_STAINED_GLASS"
+  - "*_STAINED_GLASS_PANE"
+  - "*_CANDLE"
+  - "*_BANNER"
+  - "*_WALL_BANNER"
+
+messages:
+  no-permission: "&cУ вас немає дозволу на використання цієї команди."
+  color-changed: "&7Колір змінено на: %color%"
+  block-not-paintable: "&cЦей блок не можна фарбувати!"
+  brush-worn-out: "&cВ пензлі закінчились чорнила!"
+  block-color-not-found: "&7Блок вже пофарбований в обраний колір."
+  give-usage: "&cВикористання: /blockpainter give <гравець> [кількість]"
+  player-not-found: "&cГравець '%player%' не знайдений або не в мережі."
+  invalid-amount-range: "&cКількість повинна бути від 1 до 64."
+  invalid-amount-number: "&c'%input%' — не є числом."
+  give-received: "&aВи отримали &6%amount%x &aКольорозмінювач!"
+  give-sent: "&aВидано &6%amount%x &aКольорозмінювач гравцю &e%player%&a."
+  reloaded: "&aКонфігурацію BlockPainter перезавантажено успішно!"
+  help-header: "&6&l=== BlockPainter ==="
+  help-give: "&e/blockpainter give <гравець> [кількість] &f— видати пензель"
+  help-reload: "&e/blockpainter reload &f— перезавантажити конфіг"
+  ink-refilled: "&aДодано &f%amount% &aчорнил. Всього: &f%ink%&7/&f%max_ink%"
+  ink-full: "&7Пензель вже повністю заправлений (&f%max_ink%&7 чорнил)."

@@ -1,0 +1,16 @@
+name: BlockPainter
+version: '1.0'
+api-version: '1.21'
+authors: [ Frodexx_UA ]
+main: uadev.blockpainter.BlockPainter
+description: 'Дайте можливість гравцям розфарбовувати блоки за допомогою спеціального пензля'
+
+commands:
+  blockpainter:
+    description: Основна команда
+    usage: /blockpainter <give|reload>
+    permission: blockpainter.admin
+
+permissions:
+  blockpainter.admin:
+    default: op
