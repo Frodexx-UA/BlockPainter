@@ -180,3 +180,5 @@ messages:
 | Право                | Опис                                  |
 |----------------------|---------------------------------------|
 | `blockpainter.admin` | Доступ до всіх команд `/blockpainter` |
+
+<img width="96" height="96" alt="10677" src="https://github.com/user-attachments/assets/1c56b0a3-5ddf-46f6-9416-0ccae35f0f17" />
