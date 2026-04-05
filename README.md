@@ -181,5 +181,8 @@ messages:
 |----------------------|---------------------------------------|
 | `blockpainter.admin` | Доступ до всіх команд `/blockpainter` |
 
+Натисни на картинку, щоб перейти до відео
 [![Відео 1](https://img.youtube.com/vi/QsS-8yOvZYo/maxresdefault.jpg)](https://youtu.be/QsS-8yOvZYo)
+
+Натисни на картинку, щоб перейти до відео
 [![Відео 2](https://img.youtube.com/vi/GD1hxQvzmWE/maxresdefault.jpg)](https://youtu.be/GD1hxQvzmWE)
