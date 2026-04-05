@@ -183,5 +183,5 @@ messages:
 
 <img width="96" height="96" alt="10677" src="https://github.com/user-attachments/assets/1c56b0a3-5ddf-46f6-9416-0ccae35f0f17" />
 
-https://youtu.be/QsS-8yOvZYo
-https://youtu.be/GD1hxQvzmWE
+[![Відео 1](https://img.youtube.com/vi/QsS-8yOvZYo/maxresdefault.jpg)](https://youtu.be/QsS-8yOvZYo)
+[![Відео 2](https://img.youtube.com/vi/GD1hxQvzmWE/maxresdefault.jpg)](https://youtu.be/GD1hxQvzmWE)
